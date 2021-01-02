@@ -55,7 +55,7 @@ function Feed() {
               placeholder="Post something"
             />
             <button onClick={sendPost} className="light" type="submit">
-              <SendOutlinedIcon color="lightblue" />
+              <SendOutlinedIcon className="lightblue" />
             </button>
           </form>
         </div>
