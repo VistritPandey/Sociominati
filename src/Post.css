@@ -12,6 +12,7 @@
 
 .post__info{
     margin-left: 10px;
+    color: white;
 }
 
 .post__info > p {
@@ -21,6 +22,7 @@
 
 .post__body {
     overflow-wrap: anywhere;
+    color: white;
 }
 
 .post__info > h2 {
