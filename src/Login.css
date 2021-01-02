@@ -1,0 +1,22 @@
+.login {
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+.login > img{
+    object-fit: contain;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login > button {
+    width: 300px;
+    background-color: #0072b1;
+    color: #eff2f5;
+    font-weight: 800;
+  }
