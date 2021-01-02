@@ -10,8 +10,8 @@ function Sidebar() {
 
   const recentItem = (topic) => (
     <div className="sidebar__recentItem">
-      <span className="sidebar__hash">#</span>
-      <a href="https://github.com/VistritPandey/Gmail-Clone">{topic}</a>
+      <span className="sidebar__hash">-></span>
+      <a href="https://github.com/VistritPandey/Sociominati">{topic}</a>
     </div>
   );
 

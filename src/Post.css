@@ -34,6 +34,12 @@
     justify-content: space-evenly;
 }
 
-.post__body > img {
-    border-radius: 20px;
+.post__image > img {
+    border-radius: 10px;
+    width: 75%;
   }
+
+.post__body {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}

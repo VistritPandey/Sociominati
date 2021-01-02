@@ -23,7 +23,9 @@ function Post({ name, message, photoUrl, timestamp, image }) {
       <div className="post__body">
         <p>{message}</p>
       </div>
-      <img src={image} alt="" />
+      <div className="post__image">
+        <img src={image} alt="" />
+      </div>
       <div className="post__buttons">
         <InputOption Icon={ThumbUpAltOutlinedIcon} title="Like" color="gray" />
         <InputOption
