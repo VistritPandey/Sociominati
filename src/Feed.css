@@ -9,7 +9,6 @@
     background-color: rgb(0, 0, 0);
     padding: 10px;
     padding-bottom: 20px;
-    padding-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -24,7 +23,7 @@
 
 .feed__input > form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -34,8 +33,7 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
-    background-color: white;
-    flex-direction: column;
+    background-color: black;
 }
 
 .light {
@@ -61,3 +59,7 @@
     border: none;
     padding: 10px;
   }
+
+input, select, textarea{
+    color: white;
+}
