@@ -32,7 +32,6 @@ function Post({ name, message, photoUrl, timestamp }) {
           color="lightgreen"
         />
         <InputOption Icon={ShareOutlinedIcon} title="Share" color="orange" />
-        <InputOption Icon={SendOutlinedIcon} title="Send" color="lightblue" />
       </div>
     </div>
   );

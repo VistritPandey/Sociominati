@@ -11,7 +11,7 @@ function Sidebar() {
   const recentItem = (topic) => (
     <div className="sidebar__recentItem">
       <span className="sidebar__hash">#</span>
-      <p href="https://github.com/VistritPandey/Gmail-Clone">{topic}</p>
+      <a href="https://github.com/VistritPandey/Gmail-Clone">{topic}</a>
     </div>
   );
 
@@ -28,12 +28,12 @@ function Sidebar() {
       </div>
       <div className="sidebar__stats">
         <div className="sidebar__stat">
-          <p>Who Viewed you</p>
-          <p className="sidebar__statNumber">2,303</p>
+          <p>Following</p>
+          <p className="sidebar__statNumber">0</p>
         </div>
         <div className="sidebar__stat">
-          <p>Views on Post</p>
-          <p className="sidebar__statNumber">2,323</p>
+          <p>Followers</p>
+          <p className="sidebar__statNumber">0</p>
         </div>
       </div>
       <div className="sidebar__bottom">
