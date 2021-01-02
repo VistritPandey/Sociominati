@@ -6,6 +6,7 @@
     text-align: center;
     height: fit-content;
     padding-top: 10px;
+    background-color: rgb(19, 18, 18);
 }
 
 .sidebar__avatar{
@@ -20,7 +21,7 @@
     border-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: white;
+    background-color: rgb(19, 18, 18);
 }
 
 .sidebar__top > img {
@@ -36,12 +37,14 @@
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(19, 18, 18);
 }
 
 .sidebar__stat > p {
-    color: gray;
+    color: white;
     font-size: 13px;
     font-weight: 600;
+    background-color: rgb(19, 18, 18);
 }
 
 .sidebar__statNumber {
@@ -71,7 +74,7 @@
     text-align: left;
     padding: 10px;
     border: 1px solid lightgray;
-    background-color: white;
+    background-color: rgb(19, 18, 18);
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -96,6 +99,7 @@
 .sidebar__hash {
     margin-right: 10px;
     margin-left: 5px;
+    background-color: rgb(19, 18, 18);
 }
 
 .sidebar__bottom > a {

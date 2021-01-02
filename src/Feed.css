@@ -2,10 +2,11 @@
     padding-left: 40px;
     flex: 0.8;
     margin: 0 20px;
+    border-radius: 10px;
 }
 
 .feed__inputContainer {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     padding-bottom: 20px;
     padding-radius: 10px;
@@ -32,12 +33,13 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
+    background-color: black;
 }
 
 .light {
     border: none;
     border-radius: 10px;
-    background: none;
+    background-color: whitesmoke;
 }
 
 .ligh {

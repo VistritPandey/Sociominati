@@ -2,6 +2,7 @@ import React from "react";
 import "./Login.css";
 import { provider, auth } from "./Firebase";
 import { Button } from "@material-ui/core";
+import logo from "./Logo.jpg";
 
 function Login() {
   const signIn = (e) => {
@@ -10,10 +11,7 @@ function Login() {
 
   return (
     <div className="login">
-      <img
-        src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo-2011%E2%80%932019.png"
-        alt=""
-      />
+      <img src={logo} alt="" />
       <Button onClick={signIn}>Sign In</Button>
     </div>
   );
