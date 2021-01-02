@@ -16,6 +16,7 @@ function Feed() {
   const user = useSelector(selectUser);
   const [input, setInput] = useState("");
   const [posts, setPosts] = useState([]);
+  const [feedImage, setfeedImage] = useState("");
 
   useEffect(() => {
     db.collection("posts")
@@ -37,9 +38,11 @@ function Feed() {
       description: "description",
       message: input,
       photoUrl: user.photoUrl,
+      image: feedImage,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
     setInput("");
+    setfeedImage("");
   };
 
   return (
@@ -54,6 +57,13 @@ function Feed() {
               type="text"
               placeholder="Post something"
             />
+            <input
+              value={feedImage}
+              onChange={(e) => setfeedImage(e.target.value)}
+              className="imageInput"
+              type="text"
+              placeholder="Image Url"
+            />
             <button onClick={sendPost} className="light" type="submit">
               <SendOutlinedIcon className="lightblue" />
             </button>
@@ -65,15 +75,18 @@ function Feed() {
           <InputOption Icon={EventNoteIcon} title="Event" color="#C0CBCD" />
         </div>
       </div>
-      {posts.map(({ id, data: { name, message, photoUrl, timestamp } }) => (
-        <Post
-          key={id}
-          name={name}
-          message={message}
-          photoUrl={photoUrl}
-          timestamp={timestamp}
-        />
-      ))}
+      {posts.map(
+        ({ id, data: { name, message, photoUrl, timestamp, image } }) => (
+          <Post
+            key={id}
+            name={name}
+            message={message}
+            photoUrl={photoUrl}
+            timestamp={timestamp}
+            image={image}
+          />
+        )
+      )}
     </div>
   );
 }

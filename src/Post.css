@@ -33,3 +33,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.post__body > img {
+    border-radius: 20px;
+  }

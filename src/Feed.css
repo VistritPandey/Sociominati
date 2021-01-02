@@ -24,6 +24,7 @@
 
 .feed__input > form {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -33,7 +34,8 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
-    background-color: black;
+    background-color: white;
+    flex-direction: column;
 }
 
 .light {
@@ -54,3 +56,8 @@
 .lightblue {
     color: rgba(255, 255, 0, 0.748);
 }
+
+.imageInput {
+    border: none;
+    padding: 10px;
+  }
