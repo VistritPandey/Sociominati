@@ -1,4 +1,8 @@
-Deployed at: https://sociominati.co/
+## Deployed at: https://sociominati.co/
+
+## Deployed at: https://sociominati.tech/
+
+## Deployed at: https://sociominati.web.app
 
 ## Available Scripts
 
